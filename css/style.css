@@ -146,10 +146,8 @@ section.light {
 .dark{
     background-color: #d3d3d3;
 }
-.green-box{
-    background-color: #228b22;
-    height: 50rem;
-    width: 75rem;
+
+
 }
 
 .pink-box>h2{
@@ -162,7 +160,43 @@ section.light {
     text-align: left;
     letter-spacing: 1px;
 }
+.green-box{
+    width: 75rem;
+    height: 70rem;
+}
 
+.green-box>h2{
+    margin-top: 2rem;
+    font-size: 3.4rem;
+    text-align: center;
+}
+
+.green-box>p{
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    text-align: center;
+    padding-left: 6rem;
+    padding-right: 6rem;
+    margin-bottom: 2rem;
+}
+.pc-mobile{
+    width: 100%;
+}
+
+.btn-last{
+    background-color: #7289da;
+    text-decoration: none;
+    color: black;
+    border-radius: 40px;
+    padding: 10px;
+    font-size: 1.2rem;
+    margin: 0% 43%;
+}
+.wave{
+    height: 100px;
+    filter: opacity(0.175);
+    background-image: url("../img/wave.svg");
+}
 /*footer*/
 footer {
     background-color: #222;
