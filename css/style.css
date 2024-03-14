@@ -197,6 +197,13 @@ section.light {
     filter: opacity(0.175);
     background-image: url("../img/wave.svg");
 }
+.reverse-wave{
+    height: 100px;
+    filter: opacity(0.175);
+    background-image: url("../img/wave.svg");
+    transform: rotateX(0.5turn);
+}
+
 /*footer*/
 footer {
     background-color: #222;
