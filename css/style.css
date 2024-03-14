@@ -52,6 +52,7 @@
     border-radius: 40px;
     padding: 10px;
     display: inline-block;
+    font-size: 1.2rem;
     }
 
 .bnt-black{
@@ -60,6 +61,7 @@
     padding: 10px;
     border-radius: 40px;
     text-decoration: none;
+    font-size: 1.2rem;
 }
 
 .pulsanti{
@@ -111,13 +113,11 @@ header>nav{
 
 /*main*/
 .blue-box {
-    background-color: #1e90ff;
     width: 70%;
     height: 100%;
 }
 
 .pink-box{
-    background-color: #ffc0cb;
     width: 30%;
     height: 100%;
 }
@@ -126,6 +126,7 @@ header>nav{
     width: 75rem;
     height: 35rem;
     display: flex;
+    padding-top: 3rem;
 }
 
 section.dark {
@@ -149,6 +150,17 @@ section.light {
     background-color: #228b22;
     height: 50rem;
     width: 75rem;
+}
+
+.pink-box>h2{
+    font-size: 3.4rem;
+}
+
+.pink-box>p{
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    text-align: left;
+    letter-spacing: 1px;
 }
 
 /*footer*/
