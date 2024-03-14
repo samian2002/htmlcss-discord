@@ -179,6 +179,15 @@ section.light {
     padding-right: 6rem;
     margin-bottom: 2rem;
 }
+
+.star{
+    background-image: url(../img/stars.svg);
+    background-size: contain;
+    height: 25px;
+    width: 1200px;
+
+}
+
 .pc-mobile{
     width: 100%;
 }
@@ -205,9 +214,34 @@ section.light {
 }
 
 /*footer*/
+
 footer {
     background-color: #222;
 }
+.linguage{
+    display: flex;
+    height: 1rem;
+    text-decoration: none;
+    margin-top: 1rem;
+    color: white;
+    gap: 5px;
+
+}
+
+h4{
+    font-size: 3rem;
+    color: #7289da;
+}
+
+
+.social{
+    list-style-type: none;
+    display: flex;
+    gap: 1.5rem;
+    color: white;
+    margin-top: 1rem;
+}
+
 
 .footer-item{
     padding: 1rem 0rem 3rem 0rem;
@@ -218,7 +252,6 @@ footer {
 }
 
 .footer-pink-box {
-    background-color: #f08080;
     width: 33.2%;
 }
 
